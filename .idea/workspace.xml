@@ -2,10 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bba1c7cf-0cb5-475c-b34f-ae75c8d60a78" name="Default Changelist" comment="简单工厂">
-      <change beforePath="$PROJECT_DIR$/3.外观模式.md" beforeDir="false" afterPath="$PROJECT_DIR$/3.外观模式.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/Facade.java" beforeDir="false" afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/Facade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/th01_counter_example/ConfigManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/th01_counter_example/ConfigManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/DefaultAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/LogDbOperateApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/MyAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/TimeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/th01_counter_example/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/th01_counter_example/LogFileOperate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/th01_counter_example/LogFileOperateApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/th01_counter_example/LogModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/two_direct_adapter/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/two_direct_adapter/LogDbOperate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/two_direct_adapter/LogDbOperateApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/two_direct_adapter/LogFileOperate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/two_direct_adapter/LogFileOperateApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/two_direct_adapter/LogModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/two_direct_adapter/TwoDirectAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,28 +32,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/th01_counter_example/ConfigManager.java">
+        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/MyAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/th01_counter_example/Presentation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/Facade.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" selection-start-line="6" selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="509">
+              <caret line="23" column="4" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,11 +43,82 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/Client.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/LogDbOperateApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="510">
+              <caret line="24" column="15" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/DefaultAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="382">
+              <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/Adapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/two_direct_adapter/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="708">
+              <caret line="33" lean-forward="true" selection-start-line="1" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/class_adapter/ClassAdapter.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/two_direct_adapter/LogDbOperateApi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/two_direct_adapter/LogDbOperate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="708">
+              <caret line="30" lean-forward="true" selection-start-line="1" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -60,8 +128,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -107,13 +175,25 @@
         <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/PresentationImpl.java" />
         <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/Facade.java" />
         <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/Client.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/th01_counter_example/LogModel.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/th01_counter_example/LogFileOperate.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/th01_counter_example/LogFileOperateApi.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/th01_counter_example/Client.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/LogDbOperateApi.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/TimeUtil.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/Adapter.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/Client.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/MyAdapter.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/DefaultAdapter.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/two_direct_adapter/Client.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/class_adapter/ClassAdapter.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1222" />
-    <option name="y" value="301" />
-    <option name="width" value="1124" />
+    <option name="x" value="785" />
+    <option name="y" value="271" />
+    <option name="width" value="1771" />
     <option name="height" value="990" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -122,6 +202,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -145,13 +227,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="th01_simple_factory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="action-in-design-patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
               <item name="th02_facade" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -159,21 +234,18 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="th02_facade" type="462c0819:PsiDirectoryNode" />
-              <item name="th01_counter_example" type="462c0819:PsiDirectoryNode" />
+              <item name="th03_adapter" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553777188982" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553797037520" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
@@ -182,6 +254,10 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.clsaa.edu.pattern.th02_facade" />
       <recent name="com.clsaa.edu.pattern.th01_simple_factory.th01_counter_example" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/class_adapter" />
+      <recent name="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/two_direct_adapter" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -210,6 +286,7 @@
       <workItem from="1553773280963" duration="3161000" />
       <workItem from="1553784874792" duration="605000" />
       <workItem from="1553785505822" duration="606000" />
+      <workItem from="1553789291256" duration="3201000" />
     </task>
     <task id="LOCAL-00001" summary="简单工厂">
       <created>1553773316000</created>
@@ -222,13 +299,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5347000" />
+    <option name="totallyTimeSpent" value="8548000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1222" y="301" width="1124" height="990" extended-state="0" />
-    <editor active="true" />
+    <frame x="785" y="271" width="1771" height="990" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27425373" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1751018" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -399,6 +475,153 @@
           <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/th01_counter_example/LogModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/th01_counter_example/LogFileOperateApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" selection-start-line="2" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/th01_counter_example/LogFileOperate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="53" column="13" lean-forward="true" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/th01_counter_example/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="708">
+          <caret line="27" column="1" selection-start-line="1" selection-end-line="27" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="140" column="16" selection-start-line="140" selection-start-column="16" selection-end-line="140" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="477" column="16" lean-forward="true" selection-start-line="477" selection-start-column="16" selection-end-line="477" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="1245" column="32" lean-forward="true" selection-start-line="1245" selection-start-column="32" selection-end-line="1245" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/ComparableTimSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="178" column="16" selection-start-line="178" selection-start-column="16" selection-end-line="178" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/TimeUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" selection-start-line="2" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/DefaultAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/MyAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="23" column="4" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/LogDbOperateApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="24" column="15" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/Adapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/two_direct_adapter/LogDbOperateApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/two_direct_adapter/LogDbOperate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="708">
+          <caret line="30" lean-forward="true" selection-start-line="1" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/two_direct_adapter/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="708">
+          <caret line="33" lean-forward="true" selection-start-line="1" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th03_adapter/class_adapter/ClassAdapter.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
