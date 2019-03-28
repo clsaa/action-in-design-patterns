@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bba1c7cf-0cb5-475c-b34f-ae75c8d60a78" name="Default Changelist" comment="简单工厂">
+      <change beforePath="$PROJECT_DIR$/3.外观模式.md" beforeDir="false" afterPath="$PROJECT_DIR$/3.外观模式.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/Facade.java" beforeDir="false" afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/Facade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/th01_counter_example/ConfigManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/th01_counter_example/ConfigManager.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/th01_counter_example/ConfigManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/th01_counter_example/Presentation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/Facade.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" selection-start-line="6" selection-end-line="12" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="任贵杰 &lt;812022339@qq.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/01_simple_factory/01_counter_example/Api.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th01_simple_factory/th01_counter_example/Api.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th01_simple_factory/th01_counter_example/Impl.Java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th01_simple_factory/th01_counter_example/Client.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th01_simple_factory/Api.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th01_simple_factory/th01_counter_example/ImplA.Java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th01_simple_factory/th01_counter_example/ImplB.Java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th01_simple_factory/SimpleFactory.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th01_simple_factory/ImplA.Java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th01_simple_factory/ImplB.Java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th01_simple_factory/Client.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/th01_counter_example/ConfigModel.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/th01_counter_example/Presentation.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/th01_counter_example/Business.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/th01_counter_example/Dao.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/th01_counter_example/Client.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/th01_counter_example/ConfigManager.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/AModuleApi.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/BModuleApi.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/CModuleApi.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/AModuleImpl.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/CModuleImpl.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/BModuleImpl.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/PresentationApi.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/DAOApi.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/BusinessApi.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/BusinessImpl.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/DAOImpl.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/PresentationImpl.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/Facade.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/Client.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1222" />
+    <option name="y" value="301" />
+    <option name="width" value="1124" />
+    <option name="height" value="990" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="action-in-design-patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="action-in-design-patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="action-in-design-patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="action-in-design-patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="th01_simple_factory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="action-in-design-patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="th02_facade" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="action-in-design-patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="th02_facade" type="462c0819:PsiDirectoryNode" />
+              <item name="th01_counter_example" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553777188982" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.clsaa.edu.pattern.th02_facade" />
+      <recent name="com.clsaa.edu.pattern.th01_simple_factory.th01_counter_example" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bba1c7cf-0cb5-475c-b34f-ae75c8d60a78" name="Default Changelist" comment="" />
+      <created>1553763608104</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553763608104</updated>
+      <workItem from="1553763609582" duration="975000" />
+      <workItem from="1553773280963" duration="3161000" />
+      <workItem from="1553784874792" duration="605000" />
+      <workItem from="1553785505822" duration="606000" />
+    </task>
+    <task id="LOCAL-00001" summary="简单工厂">
+      <created>1553773316000</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1553773316000</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5347000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1222" y="301" width="1124" height="990" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27425373" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Statistic" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Codota" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="简单工厂" />
+    <option name="LAST_COMMIT_MESSAGE" value="简单工厂" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th01_simple_factory/th01_counter_example/Api.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" selection-start-line="5" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th01_simple_factory/th01_counter_example/Impl.Java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" selection-start-line="6" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th01_simple_factory/th01_counter_example/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" selection-start-line="5" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th01_simple_factory/SimpleFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" selection-start-line="5" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th01_simple_factory/Api.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" selection-start-line="5" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th01_simple_factory/ImplA.Java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" selection-start-line="6" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th01_simple_factory/ImplB.Java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" selection-start-line="6" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th01_simple_factory/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.外观模式.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="330">
+            <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/Main.java" />
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/th01_counter_example/Business.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/th01_counter_example/Dao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/th01_counter_example/ConfigModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-693">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/th01_counter_example/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/PresentationApi.java" />
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/BusinessApi.java" />
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/BusinessImpl.java" />
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/DAOImpl.java" />
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/PresentationImpl.java" />
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/DAOApi.java" />
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/th01_counter_example/ConfigManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/th01_counter_example/Presentation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/Facade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" selection-start-line="6" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

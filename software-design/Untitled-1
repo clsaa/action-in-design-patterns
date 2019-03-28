@@ -1,0 +1,7 @@
+curl -X POST http://jenkins.dop.clsaa.com/job/JOB_NAME/build \
+  --user admin:117dd4d202d837e4848f254f694ee16fbe \
+  --data-urlencode json='{"parameter": [{"name":"id", "value":"123"}, {"name":"verbosity", "value":"high"}]}'
+
+  curl -X GET http://admin:117dd4d202d837e4848f254f694ee16fbe@jenkins.dop.clsaa.com/jenkins/job/test1
+  http://admin:Dop123456789@jenkins.dop.clsaa.com/job/test1/api/json?pretty=true
+  curl -X POST http://jenkins.dop.clsaa.com/job/test1/disable  --user admin:Dop123456789

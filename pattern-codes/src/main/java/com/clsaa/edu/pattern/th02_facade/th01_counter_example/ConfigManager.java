@@ -4,7 +4,7 @@ package com.clsaa.edu.pattern.th02_facade.th01_counter_example;
  * 配置管理模块
  */
 public class ConfigManager {
-    private static ConfigManager configManager;
+    private volatile static ConfigManager configManager;
     private static ConfigModel configModel;
 
     private ConfigManager() {
