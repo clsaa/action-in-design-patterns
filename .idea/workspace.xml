@@ -2,16 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bba1c7cf-0cb5-475c-b34f-ae75c8d60a78" name="Default Changelist" comment="简单工厂">
-      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th05_singleton/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th05_singleton/example01/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th05_singleton/example02/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th05_singleton/example03/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th05_singleton/example03/AppConfig.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th05_singleton/example03/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th05_singleton/th01_counter_example/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th05_singleton/th01_counter_example/AppConfig.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th05_singleton/th01_counter_example/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th01_simple_factory/ImplA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th01_simple_factory/ImplB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th01_simple_factory/th01_counter_example/Impl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th06_factory_method/example01/ConcreteCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th06_factory_method/example01/ConcreteProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th06_factory_method/example01/Creator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th06_factory_method/example01/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th06_factory_method/example02/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th06_factory_method/example02/ExportDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th06_factory_method/example02/ExportDBOperate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th06_factory_method/example02/ExportFileApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th06_factory_method/example02/ExportOperate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th06_factory_method/example02/ExportTxtFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th06_factory_method/example02/ExportTxtFileOperate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th01_simple_factory/ImplA.Java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th01_simple_factory/ImplB.Java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th01_simple_factory/th01_counter_example/Impl.Java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,81 +31,91 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th05_singleton/Main.java">
+        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th06_factory_method/example02/ExportFileApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="396">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th05_singleton/th01_counter_example/AppConfig.java">
+        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th06_factory_method/example02/ExportDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="47" column="17" lean-forward="true" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th05_singleton/th01_counter_example/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th05_singleton/example01/Singleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="37" column="7" lean-forward="true" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th05_singleton/example02/Singleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+            <state relative-caret-position="363">
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th05_singleton/example03/AppConfig.java">
+        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th06_factory_method/example02/ExportOperate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="33" column="4" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th06_factory_method/example02/ExportDBOperate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th06_factory_method/example02/Client.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="231">
-              <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+              <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th05_singleton/example03/Client.java">
+        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th01_simple_factory/th01_counter_example/Impl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="165">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th05_singleton/example03/AppConfig.properties">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th01_simple_factory/ImplB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th05_singleton/th01_counter_example/AppConfig.properties">
+        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th01_simple_factory/ImplA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="1" selection-end-column="8" />
+            <state relative-caret-position="165">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th01_simple_factory/SimpleFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th06_factory_method/example02/ExportTxtFileOperate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -123,21 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/01_simple_factory/01_counter_example/Api.java" />
-        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th01_simple_factory/th01_counter_example/Api.java" />
-        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th01_simple_factory/th01_counter_example/Impl.Java" />
-        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th01_simple_factory/th01_counter_example/Client.java" />
-        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th01_simple_factory/Api.java" />
-        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th01_simple_factory/th01_counter_example/ImplA.Java" />
-        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th01_simple_factory/th01_counter_example/ImplB.Java" />
-        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th01_simple_factory/SimpleFactory.java" />
-        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th01_simple_factory/ImplA.Java" />
-        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th01_simple_factory/ImplB.Java" />
-        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th01_simple_factory/Client.java" />
-        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/th01_counter_example/ConfigModel.java" />
-        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/th01_counter_example/Presentation.java" />
-        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/th01_counter_example/Business.java" />
-        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/th01_counter_example/Dao.java" />
         <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/th01_counter_example/Client.java" />
         <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/th01_counter_example/ConfigManager.java" />
         <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/AModuleApi.java" />
@@ -173,12 +176,28 @@
         <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th05_singleton/example02/Singleton.java" />
         <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th05_singleton/example03/AppConfig.java" />
         <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th05_singleton/example03/Client.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th05_singleton/Singleton.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th06_factory_method/example01/ConcreteCreator.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th06_factory_method/example01/ConcreteProduct.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th06_factory_method/example01/Creator.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th06_factory_method/example01/Product.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th06_factory_method/example02/ExportFileApi.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th06_factory_method/example02/ExportTxtFile.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th06_factory_method/example02/ExportDB.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th06_factory_method/example02/ExportOperate.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th06_factory_method/example02/ExportDBOperate.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th06_factory_method/example02/ExportTxtFileOperate.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th06_factory_method/example02/Client.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th01_simple_factory/ImplB.Java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th01_simple_factory/ImplB.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th01_simple_factory/ImplA.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th01_simple_factory/th01_counter_example/Impl.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="789" />
-    <option name="y" value="227" />
+    <option name="y" value="226" />
     <option name="width" value="1771" />
     <option name="height" value="990" />
   </component>
@@ -211,7 +230,30 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="th05_singleton" type="462c0819:PsiDirectoryNode" />
+              <item name="th01_simple_factory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="action-in-design-patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="th01_simple_factory" type="462c0819:PsiDirectoryNode" />
+              <item name="th01_counter_example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="action-in-design-patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="th06_factory_method" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="action-in-design-patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="th06_factory_method" type="462c0819:PsiDirectoryNode" />
+              <item name="example02" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -224,7 +266,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553871872966" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553877120957" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
@@ -252,6 +294,26 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.clsaa.edu.pattern.th06_factory_method.example02.Client" />
+      <module name="main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.clsaa.edu.pattern.th06_factory_method.example02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Client" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -268,7 +330,7 @@
       <workItem from="1553785505822" duration="606000" />
       <workItem from="1553789291256" duration="3547000" />
       <workItem from="1553832843396" duration="539000" />
-      <workItem from="1553866489298" duration="1886000" />
+      <workItem from="1553866489298" duration="4184000" />
     </task>
     <task id="LOCAL-00001" summary="简单工厂">
       <created>1553773316000</created>
@@ -281,10 +343,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11319000" />
+    <option name="totallyTimeSpent" value="13617000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="789" y="227" width="1771" height="990" extended-state="0" />
+    <frame x="789" y="226" width="1771" height="990" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2460733" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -293,9 +356,10 @@
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32897863" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32897863" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -326,79 +390,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="简单工厂" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th01_simple_factory/ImplA.Java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" selection-start-line="6" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th01_simple_factory/ImplB.Java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" selection-start-line="6" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th01_simple_factory/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3.外观模式.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="330">
-            <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/Main.java" />
-    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/th01_counter_example/Business.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/th01_counter_example/Dao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/th01_counter_example/ConfigModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-693">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/th01_counter_example/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/PresentationApi.java" />
-    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/BusinessApi.java" />
-    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/BusinessImpl.java" />
-    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/DAOImpl.java" />
-    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/PresentationImpl.java" />
-    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/DAOApi.java" />
-    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/th01_counter_example/ConfigManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th02_facade/th01_counter_example/Presentation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -659,8 +650,120 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th05_singleton/example03/AppConfig.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th05_singleton/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th06_factory_method/example01/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" selection-start-line="2" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th06_factory_method/example01/ConcreteCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" selection-start-line="2" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th06_factory_method/example01/ConcreteProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
-          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th06_factory_method/example01/Creator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th06_factory_method/example02/ExportTxtFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th06_factory_method/example02/ExportTxtFileOperate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th01_simple_factory/SimpleFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th01_simple_factory/ImplB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th01_simple_factory/ImplA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th01_simple_factory/th01_counter_example/Impl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th06_factory_method/example02/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th06_factory_method/example02/ExportDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th06_factory_method/example02/ExportDBOperate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th06_factory_method/example02/ExportFileApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th06_factory_method/example02/ExportOperate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="33" column="4" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
         </state>
       </provider>
     </entry>
