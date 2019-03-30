@@ -2,21 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bba1c7cf-0cb5-475c-b34f-ae75c8d60a78" name="Default Changelist" comment="简单工厂">
-      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th09_prototype/example01/EnterpriseOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th09_prototype/example01/OrderApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th09_prototype/example01/OrderBusiness.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th09_prototype/example01/OrderClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th09_prototype/example01/PersonalOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th09_prototype/example02/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th09_prototype/example02/ConcretePrototype1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th09_prototype/example02/ConcretePrototype2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th09_prototype/example02/Prototype.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th09_prototype/example03/OrderApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th09_prototype/example04/EnterpriseOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th09_prototype/example04/OrderApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th09_prototype/example04/OrderBusiness.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th09_prototype/example04/OrderClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th09_prototype/example04/PersonalOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/example01/Colleague.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/example01/ConcreteColleagueA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/example01/ConcreteColleagueB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/example01/ConcreteMediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/example01/Mediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/example02/CDDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/example02/CPU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/example02/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/example02/Colleague.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/example02/Mediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/example02/MotherBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/example02/SoundCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/example02/VideoCard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,89 +28,91 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th09_prototype/example02/Prototype.java">
+        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/example01/ConcreteColleagueB.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="66">
-              <caret line="2" selection-start-line="2" selection-end-line="11" selection-end-column="1" />
+              <caret line="2" selection-start-line="2" selection-end-line="16" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th09_prototype/example02/ConcretePrototype1.java">
+        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/example01/ConcreteMediator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="66">
-              <caret line="2" selection-start-line="2" selection-end-line="11" selection-end-column="1" />
+              <caret line="2" selection-start-line="2" selection-end-line="34" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th09_prototype/example02/ConcretePrototype2.java">
+        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/example02/CDDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="2" selection-start-line="2" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="33">
+              <caret line="2" selection-start-line="2" selection-end-line="29" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th09_prototype/example02/Client.java">
+        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/example02/CPU.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="2" selection-start-line="2" selection-end-line="24" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th09_prototype/example03/OrderApi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-38" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th09_prototype/example04/OrderApi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th09_prototype/example04/PersonalOrder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="2" selection-start-line="2" selection-end-line="51" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th09_prototype/example04/EnterpriseOrder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="2" selection-start-line="2" selection-end-line="49" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th09_prototype/example04/OrderBusiness.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+            <state relative-caret-position="561">
+              <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th09_prototype/example04/OrderClient.java">
+        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/example02/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="65">
+              <caret line="2" selection-start-line="2" selection-end-line="20" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/example02/Colleague.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/example02/Mediator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="66">
-              <caret line="2" selection-start-line="2" selection-end-line="16" selection-end-column="1" />
+              <caret line="2" selection-start-line="2" selection-end-line="13" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/example02/MotherBoard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/example02/SoundCard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="2" selection-start-line="2" selection-end-line="18" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/example02/VideoCard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -137,19 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th07_abstract_factory/example03/AMDCPU.java" />
-        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th07_abstract_factory/example03/Client.java" />
-        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th07_abstract_factory/example03/ComputerEngineer.java" />
-        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th07_abstract_factory/example03/GAMainboard.java" />
-        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th07_abstract_factory/example03/IntelCPU.java" />
-        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th07_abstract_factory/example03/MSIMainboard.java" />
-        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th07_abstract_factory/example03/Schema1.java" />
-        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th07_abstract_factory/example03/Schema2.java" />
-        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th08_builder/ExportHeaderModel.java" />
-        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th08_builder/ExportDataModel.java" />
-        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th08_builder/example01/ExportDataModel.java" />
-        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th08_builder/example01/ExportFooterModel.java" />
-        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th08_builder/example01/ExportToTxt.java" />
         <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th08_builder/example01/ExportToXml.java" />
         <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th08_builder/example01/Client.java" />
         <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th08_builder/example01/Builder.java" />
@@ -188,12 +176,25 @@
         <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th09_prototype/example04/EnterpriseOrder.java" />
         <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th09_prototype/example04/OrderBusiness.java" />
         <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th09_prototype/example04/OrderClient.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/example01/Colleague.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/example01/Mediator.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/example01/ConcreteColleagueA.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/example01/ConcreteColleagueB.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/example01/ConcreteMediator.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/example02/CDDriver.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/example02/CPU.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/example02/Client.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/example02/Colleague.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/example02/Mediator.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/example02/MotherBoard.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/example02/SoundCard.java" />
+        <option value="$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/example02/VideoCard.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="583" />
-    <option name="y" value="410" />
+    <option name="x" value="369" />
+    <option name="y" value="306" />
     <option name="width" value="1537" />
     <option name="height" value="990" />
   </component>
@@ -230,15 +231,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="th09_prototype" type="462c0819:PsiDirectoryNode" />
+              <item name="th10_mediator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="action-in-design-patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="th09_prototype" type="462c0819:PsiDirectoryNode" />
-              <item name="example04" type="462c0819:PsiDirectoryNode" />
+              <item name="th10_mediator" type="462c0819:PsiDirectoryNode" />
+              <item name="example02" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -249,7 +250,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553965152002" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553971785096" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
@@ -315,7 +316,7 @@
       <workItem from="1553832843396" duration="539000" />
       <workItem from="1553866489298" duration="4678000" />
       <workItem from="1553918918670" duration="367000" />
-      <workItem from="1553924393320" duration="7495000" />
+      <workItem from="1553924393320" duration="9769000" />
     </task>
     <task id="LOCAL-00001" summary="简单工厂">
       <created>1553773316000</created>
@@ -328,11 +329,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21973000" />
+    <option name="totallyTimeSpent" value="24247000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="583" y="410" width="1537" height="990" extended-state="0" />
-    <editor active="true" />
+    <frame x="369" y="306" width="1537" height="990" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22962964" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -375,84 +375,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="简单工厂" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th07_abstract_factory/example03/MainboardApi.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th07_abstract_factory/example03/AMDCPU.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th07_abstract_factory/example03/GAMainboard.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th07_abstract_factory/example03/IntelCPU.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th07_abstract_factory/example03/MSIMainboard.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th07_abstract_factory/example03/AbstractFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" selection-start-line="2" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th07_abstract_factory/example03/Schema1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" selection-start-line="3" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th07_abstract_factory/example03/Schema2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" selection-start-line="2" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th07_abstract_factory/example03/ComputerEngineer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th07_abstract_factory/example03/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" selection-start-line="2" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th08_builder/example01/ExportHeaderModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th08_builder/example01/ExportDataModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th08_builder/example01/ExportFooterModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="2" selection-start-line="2" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th08_builder/example01/ExportToTxt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" selection-start-line="2" selection-end-line="34" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th08_builder/example01/ExportToXml.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -687,17 +609,115 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th09_prototype/example04/OrderBusiness.java">
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th09_prototype/example04/OrderClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        <state relative-caret-position="528">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th09_prototype/example04/OrderClient.java">
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th09_prototype/example04/OrderBusiness.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/example01/Mediator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" selection-start-line="2" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/example01/Colleague.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" selection-start-line="2" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/example01/ConcreteColleagueA.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="2" selection-start-line="2" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/example01/ConcreteColleagueB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" selection-start-line="2" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/example01/ConcreteMediator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" selection-start-line="2" selection-end-line="34" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/example02/CDDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="2" selection-start-line="2" selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/example02/CPU.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/example02/Colleague.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/example02/SoundCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" selection-start-line="2" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/example02/VideoCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/example02/Mediator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" selection-start-line="2" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/example02/MotherBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-codes/src/main/java/com/clsaa/edu/pattern/th10_mediator/example02/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="2" selection-start-line="2" selection-end-line="20" selection-end-column="1" />
         </state>
       </provider>
     </entry>
